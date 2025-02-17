@@ -54,6 +54,7 @@ namespace BlockBust4
             VolumeSlider.Value = BackgroundMusic.Volume;
             BackgroundMusic.MediaEnded += (s, e) => BackgroundMusic.Position = TimeSpan.Zero;
             Globals.gameBoard = _gameBoard;
+            MessageBox.Show("zapni zvuk lopato");
         }
 
         private void InitializeBlockPreviews()
